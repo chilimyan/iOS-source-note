@@ -5,7 +5,9 @@
 这个仓库主要是梳理自己做iOS开发以来收集整理的iOS相关的偏原理性的知识点，以及自己的一些总结和体会。供以后复习及面试。
 
 ### 内存管理-[链接](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/Objective-C内存管理精解.md)
+#### 可能被问到的面试题
 1.[请讲一下对iOS内存管理的理解](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/iOS对象在内存中的存储方式.md)
+2.[使用自动引用计（ARC）数应该遵循的原则]()
 ### 多线程-[链接]()
 ### 数据存储
 ### 性能优化
