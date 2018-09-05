@@ -1,5 +1,5 @@
 # iOS对象在内存中的存储方式
-由以下三种方式相结合：
+从最底层，对象的存储方式有以下三种方式：
 ### TaggedPointer指针
 我们知道以前在32位CPU下，一个对象所占用的内存是4个字节，如今在64位CPU中，一个对象所占用的内存是8个字节。那么像`NSNumber、NSDate、NSString`等一些小对象明明可以用4个字节存储的，那么在64位CPU下用8个字节存储就显得有些烂费资源了。
 ![](https://upload-images.jianshu.io/upload_images/1840444-50b6c5f50f1b1f73.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
