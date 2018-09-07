@@ -6,7 +6,7 @@
 
 ### 1、内存管理
 [内存管理精解](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/Objective-C内存管理精解.md)
-#### 可能被问到的问题
+#### 问题
 1. [请讲一下对iOS内存管理的理解](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/iOS对象在内存中的存储方式.md)
 2. [使用自动引用计（ARC）数应该遵循的原则](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/使用自动引用计（ARC）数应该遵循的原则%3F.md)
 3. [ARC 自动内存管理的原则](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/ARC%20自动内存管理的原则.md)
@@ -58,7 +58,8 @@
 [Runloop精解](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop精解.md)
 
 [Runloop应用场景](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop应用场景.md)
-#### 可能被问到的问题
+#### 问题
+
 
 ### 18、UIKit-[链接]()
 
