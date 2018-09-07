@@ -39,6 +39,7 @@
 ### 9、设计模式
 
 ### 10、源代码阅读
+* [源代码带中文注释](https://github.com/chilimyan/source-code-read)
 
 ### 11、蓝牙
 
