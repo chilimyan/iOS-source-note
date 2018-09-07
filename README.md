@@ -59,7 +59,13 @@
 
 [Runloop应用场景](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop应用场景.md)
 #### 问题
-
+[GCD 在 Runloop 中的使用](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/GCD%20在%20Runloop%20中的使用.md)
+[NSTimer的原理](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/NSTimer的原理.md)
+[PerformSelector 的实现原理](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/PerformSelector%20的实现原理.md)
+[PerformSelector:afterDelay:这个方法在子线程中是否起作用？为什么？怎么解决](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/PerformSelector:afterDelay:这个方法在子线程中是否起作用？为什么？怎么解决.md)
+[Runloop 和线程的关系](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop%20和线程的关系.md)
+[Runloop的Observer](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop的Observer.md)
+[]()
 
 ### 18、UIKit-[链接]()
 
