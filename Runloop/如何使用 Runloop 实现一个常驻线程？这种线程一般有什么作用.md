@@ -7,4 +7,6 @@ NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
 [runLoop addPort:[NSMachPort port] forMode:NSRunLoopCommonModes];
 [runLoop run];
 ```
+实际上是添加了一个`source0`事件源
+
 
