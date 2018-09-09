@@ -8,6 +8,7 @@
 NSLog(@"array encoding type: %s", @encode(typeof(a)));`
 另外，还有些编码类型，`@encode`虽然不会直接返回它们，但它们可以作为协议中声明的方法的类型限定符。可以参考`Type Encoding`。
 对于属性而言，还会有一些特殊的类型编码，以表明属性是只读、拷贝、`retain`等等，详情可以参考`Property Type String`。
+[苹果官方文档](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html)
 ### 基础数据类型
 `Ivar`是表示实例变量的类型，其实际是一个指向`objc_ivar`结构体的指针，其定义如下：
 
