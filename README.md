@@ -63,6 +63,28 @@
 [Runtime-Method Swizzling](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Runtime-Method%20Swizzling.md)
 
 [Runtime-消息转发机制原理](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Runtime-消息转发机制原理.md)
+
+#### 问题
+
+1. [Category 和 Extension 有什么区别](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Category%20和%20Extension%20有什么区别.md)
+2. [Category 有哪些用途](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Category%20有哪些用途.md)
+3. [Category 的实现原理](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Category%20的实现原理.md)
+4. [如何给 Category 添加属性？关联对象以什么形式进行存储？](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/如何给%20Category%20添加属性？关联对象以什么形式进行存储？.md)
+5. [Obj-C 中的类信息存放在哪里](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Obj-C%20中的类信息存放在哪里.md)
+6. [Objective-C 如何实现多重继承](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Objective-C%20如何实现多重继承.md)
+7. [一个 NSObject 对象占用多少内存空间](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/一个%20NSObject%20对象占用多少内存空间.md)
+8. [在 Obj-C 中为什么叫发消息而不叫函数调用](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/在%20Obj-C%20中为什么叫发消息而不叫函数调用.md)
+9. [如何实现动态添加方法和属性](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/如何实现动态添加方法和属性.md)
+1. [如何运用 Runtime 字典转模型](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/如何运用%20Runtime%20字典转模型.md)
+2. [如何运用 Runtime 进行模型的归解档](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/如何运用%20Runtime%20进行模型的归解档.md)
+3. [实例对象、类对象、元类对象的数据结构](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/实例对象、类对象、元类对象的数据结构.md)
+4. [对 isa 指针的理解， 对象的isa 指针指向哪里？isa 指针有哪两种类型](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/对%20isa%20指针的理解，%20对象的isa%20指针指向哪里？isa%20指针有哪两种类型.md)
+5. [消息解析和转发](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/消息解析和转发.md)
+6. [说一下 Runtime 的方法缓存？存储的形式、数据结构以及查找的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/说一下%20Runtime%20的方法缓存？存储的形式、数据结构以及查找的过程.md)
+7. [说一下对 class_ro_t 的理解](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/说一下对%20class_ro_t%20的理解.md)
+8. [说一下对 class_rw_t 的理解？](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/说一下对%20class_rw_t%20的理解？.md)
+9. [Type Encoding类型编码](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Type%20Encoding类型编码.md)
+
 ### 16、Animation-[链接]()
 
 ### 17、Runloop
