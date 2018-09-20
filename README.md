@@ -21,6 +21,8 @@
 12. [retain、release 的实现机制](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/retain、release%20的实现机制.md)
 13. [ARC 在编译时做了哪些工作](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/ARC%20在编译时做了哪些工作.md)
 14. [ARC 在运行时做了哪些工作](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/ARC%20在运行时做了哪些工作.md)
+15. [MRC和ARC下Set方法的重写](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/MRC和ARC下Set方法的重写.md)
+16. [@synthesize关键字的理解](https://github.com/chilimyan/iOS-source-note/blob/master/内存管理/%40synthesize关键字的理解.md)
 
 ### 2、多线程
 1. [GCD 与 NSOperationQueue 有哪些异同](https://github.com/chilimyan/iOS-source-note/blob/master/多线程/GCD%20与%20NSOperationQueue%20有哪些异同.md)
