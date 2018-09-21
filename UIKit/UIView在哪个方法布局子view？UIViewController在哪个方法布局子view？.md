@@ -1,0 +1,7 @@
+# UIView在哪个方法布局子view？UIViewController在哪个方法布局子view？
+
+UIView通常在layoutSubViews方法里面布局子view。
+注意：layoutSubViews在drawRect之前调用。
+
+UIViewController通常在viewWillLayoutSubviews方法里面布局子view
+
