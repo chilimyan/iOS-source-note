@@ -129,5 +129,11 @@
 4. [解释一下事件响应的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下事件响应的过程.md)
 5. [解释一下手势识别的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下手势识别的过程.md)
 
-### 18、UIKit-[链接]()
+### 18、UIKit
+1. [UIView的生命周期](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView的生命周期.md)
+2. [UIViewController的生命周期](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIViewController的生命周期.md)
+3. [loadView方法](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/loadView方法.md)
+4. [UIView的布局方法和重绘](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView的布局方法和重绘.md)
+5. [UIView在哪个方法布局子view？UIViewController在哪个方法布局子view？](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView在哪个方法布局子view？UIViewController在哪个方法布局子view？.md#uiview在哪个方法布局子viewuiviewcontroller在哪个方法布局子view)
+6. [UIButton继承机制](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIButton继承机制.md#uibutton继承机制)
 
