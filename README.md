@@ -105,6 +105,7 @@
 7. [说一下对 class_ro_t 的理解](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/说一下对%20class_ro_t%20的理解.md)
 8. [说一下对 class_rw_t 的理解？](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/说一下对%20class_rw_t%20的理解？.md)
 9. [Type Encoding类型编码](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Type%20Encoding类型编码.md)
+10. [method swizzling Hook方法时需要注意的地方](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/method%20swizzling%20Hook方法时需要注意的地方.md)
 
 ### 16、Animation-[链接]()
 
