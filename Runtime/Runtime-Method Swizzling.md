@@ -1,6 +1,16 @@
 # Runtime-Method Swizzling
 【翻译由Mattt Thompson发表于nshipster的Method Swizzling】。
 
+Runtime中methods的数据结构：
+
+```
+struct objc_method{
+    SEL method_name    OBJC2_UNAVAILABLE;
+    char *method_types OBJC2_UNAVAILABLE;
+    IMP method_imp OBJC2_UNAVAILABLE;
+}
+```
+
 `Method Swizzling`是改变一个`selector`的实际实现的技术。通过这一技术，我们可以在运行时通过修改类的分发表中`selector`对应的函数，来修改方法的实现。
 例如，我们想跟踪在程序中每一个`view controller`展示给用户的次数：当然，我们可以在每个`view controller`的`viewDidAppear`中添加跟踪代码；但是这太过麻烦，需要在每个`view controller`中写重复的代码。创建一个子类可能是一种实现方式，但需要同时创建`UIViewController`, `UITableViewController`, `UINavigationController`及其它UIKit中`view controller`的子类，这同样会产生许多重复的代码。
 这种情况下，我们就可以使用`Method Swizzling`，如下代码所示：

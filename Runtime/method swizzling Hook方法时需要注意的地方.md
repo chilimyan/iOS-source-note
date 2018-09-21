@@ -59,5 +59,23 @@ Method originalMethod = class_getInstanceMethod(class, originalSelector);
     [self aop_viewWillAppear:animated];
 }
 ```
+### 6. 交换的分类方法应调用原实现
+当我们交换了方法的实现，并且已经调用了原实现。比如：
+
+```
+- (void)aop_viewDidAppear:(BOOL)animated {
+    [self aop_viewDidAppear:animated];
+}
+```
+那么我们在ViewController里面再写
+
+```
+- (void)viewDidAppear:(BOOL)animated{
+   
+}
+```
+的时候就不需要再调用`[super viewDidAppear:animated];`原实现了。不然`aop_viewDidAppear`会执行两次。因为实现已经交换了那么调用`[super viewDidAppear:animated];`的时候就相当于调用`aop_viewDidAppear`了。
+但是一定要对`- (void)viewDidAppear:(BOOL)animated`重写。不然`aop_viewDidAppear`也会执行两次。因为`ViewController`的父类可能执行了`[super viewDidAppear:animated]`方法。
+
 
 
