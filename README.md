@@ -43,6 +43,7 @@
 3. [什么是离屏渲染？什么情况下会触发？该如何应对？](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/什么是离屏渲染？什么情况下会触发？该如何应对？.md)
 4. [日常检查内存泄露](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/日常检查内存泄露.md)
 5. [有效降低 APP 包的大小](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/有效降低%20APP%20包的大小.md)
+6. [如何优化 APP 的电量？](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/如何优化%20APP%20的电量？.md)
 
 ### 5、数据结构与算法
 
@@ -65,8 +66,13 @@
 
 ### 12、Foundation
 1. [简述 KVO 的实现机制](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/简述%20KVO%20的实现机制.md)
+2. [@synthesize 和 @dynamic 分别有什么作用](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/%40synthesize%20和%20%40dynamic%20分别有什么作用.md)
+3. [iOS的反射机制](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/iOS的反射机制.md)
+4. [id和instanceType的区别](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/id和instanceType的区别.md)
+5. [苹果源代码及文档网站](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/苹果源代码及文档网站.md)
 
 ### 13、WebView
+1. [JS 和 OC 互相调用的几种方式？](https://github.com/chilimyan/iOS-source-note/blob/master/跨平台/JS%20和%20OC%20互相调用的几种方式？.md)
 
 ### 14、Block
 
@@ -107,7 +113,7 @@
 9. [Type Encoding类型编码](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Type%20Encoding类型编码.md)
 10. [method swizzling Hook方法时需要注意的地方](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/method%20swizzling%20Hook方法时需要注意的地方.md)
 
-### 16、Animation-[链接]()
+### 16、Animation
 
 ### 17、Runloop
 [Runloop精解](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/Runloop精解.md)
@@ -123,11 +129,11 @@
 7. [autoreleasePool 在何时被释放](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/autoreleasePool%20在何时被释放.md)
 8. [为什么 NSTimer 有时候不好使](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/为什么%20NSTimer%20有时候不好使.md)
 9. [介绍Runloop 的 Mode](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/介绍Runloop%20的%20Mode.md)
-1. [利用 runloop 解释一下页面的渲染的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/利用%20runloop%20解释一下页面的渲染的过程.md)
-2. [如何使用 Runloop 实现一个常驻线程？这种线程一般有什么作用](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/如何使用%20Runloop%20实现一个常驻线程？这种线程一般有什么作用.md)
-3. [异步绘制](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/异步绘制.md)
-4. [解释一下事件响应的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下事件响应的过程.md)
-5. [解释一下手势识别的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下手势识别的过程.md)
+10. [利用 runloop 解释一下页面的渲染的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/利用%20runloop%20解释一下页面的渲染的过程.md)
+11. [如何使用 Runloop 实现一个常驻线程？这种线程一般有什么作用](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/如何使用%20Runloop%20实现一个常驻线程？这种线程一般有什么作用.md)
+12. [异步绘制](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/异步绘制.md)
+13. [解释一下事件响应的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下事件响应的过程.md)
+14. [解释一下手势识别的过程](https://github.com/chilimyan/iOS-source-note/blob/master/Runloop/解释一下手势识别的过程.md)
 
 ### 18、UIKit
 1. [UIView的生命周期](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView的生命周期.md)
@@ -136,4 +142,12 @@
 4. [UIView的布局方法和重绘](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView的布局方法和重绘.md)
 5. [UIView在哪个方法布局子view？UIViewController在哪个方法布局子view？](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView在哪个方法布局子view？UIViewController在哪个方法布局子view？.md#uiview在哪个方法布局子viewuiviewcontroller在哪个方法布局子view)
 6. [UIButton继承机制](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIButton继承机制.md#uibutton继承机制)
+7. [事件的传递与事件响应者链](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/事件的传递与事件响应者链.md)
+8. [使用drawRect有什么影响？](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/使用drawRect有什么影响？.md)
+9. [控制器收到内存警告会如何处理](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/控制器收到内存警告会如何处理.md)
+10. [UIView和CALayer](https://github.com/chilimyan/iOS-source-note/blob/master/UIKit/UIView和CALayer.md)
+
+### 19、第三方库
+1. [SDWebImage加载图片引发的内存大量消耗卡顿的问题](https://github.com/chilimyan/iOS-source-note/blob/master/第三方库/SDWebImage加载图片引发的内存大量消耗卡顿的问题.md)
+2. [描述下SDWebImage里面给UIImageView加载图片的逻辑](https://github.com/chilimyan/iOS-source-note/blob/master/第三方库/描述下SDWebImage里面给UIImageView加载图片的逻辑.md)
 
