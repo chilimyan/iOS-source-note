@@ -14,19 +14,42 @@
 2. 让类实现copyWithZone:/mutableCopyWithZone:方法
 
 ```
-@interface SXYPerson : NSObject<NSCopying>
+@interface CLPerson : NSObject<NSCopying>
 @property (nonatomic, assign) NSInteger age;
 @property (nonatomic, copy) NSString *name;
 @end
-#import "SXYPerson.h"
-@implementation SXYPerson
+#import "CLPerson.h"
+@implementation CLPerson
 - (id)copyWithZone:(NSZone *)zone {
-    SXYPerson *person = [[[self class] allocWithZone:zone] init];
+    CLPerson *person = [[[self class] allocWithZone:zone] init];
     person.age = self.age;
     person.name = self.name;
     return person;
 }
 @end
 
+CLPerson *person = [[CLPerson alloc] init];
+    person.name = @"张三";
+    person.age = 18;
+    
+    CLPerson *person1 = [person copy];
+    NSLog(@"person:%p",person,person);
+    NSLog(@"person:%@---%p",person.name,person.name);
+    NSLog(@"person:%d---%p",person.age,person.age);
+    NSLog(@"person1:%p",person1);
+    NSLog(@"person1:%@---%p",person1.name,person1.name);
+    NSLog(@"person1:%d---%p",person1.age,person1.age);
 ```
+打印结果如下：
+
+```
+2018-09-29 18:34:47.120957+0800 Demo[46464:344037] person:0x604000236320
+2018-09-29 18:34:47.123234+0800 Demo[46464:344037] person:张三---0x1037f5bc8
+2018-09-29 18:34:47.123877+0800 Demo[46464:344037] person:18---0x12
+2018-09-29 18:34:47.124841+0800 Demo[46464:344037] person1:0x604000236620
+2018-09-29 18:34:47.125007+0800 Demo[46464:344037] person1:张三---0x1037f5bc8
+2018-09-29 18:34:47.125178+0800 Demo[46464:344037] person1:18---0x12
+```
+可以看到，这里是一个深拷贝。
+
 
