@@ -44,6 +44,7 @@
 4. [日常检查内存泄露](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/日常检查内存泄露.md)
 5. [有效降低 APP 包的大小](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/有效降低%20APP%20包的大小.md)
 6. [如何优化 APP 的电量？](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/如何优化%20APP%20的电量？.md)
+7. [在项目中遇到的循环引用问题](https://github.com/chilimyan/iOS-source-note/blob/master/性能优化/在项目中遇到的循环引用问题.md)
 
 ### 5、数据结构与算法
 
@@ -52,6 +53,14 @@
 2. [GET与POST的区别](https://github.com/chilimyan/iOS-source-note/blob/master/网络/GET与POST的区别.md)
 3. [Http 和 Https 的区别？为什么更加安全？](https://github.com/chilimyan/iOS-source-note/blob/master/网络/Http%20和%20Https%20的区别？为什么更加安全？.md)
 4. [OSI 七层模型和TCP/IP五层模型的协议](https://github.com/chilimyan/iOS-source-note/blob/master/网络/OSI%20七层模型和TCP-IP五层模型的协议.md)
+5. [Socket](https://github.com/chilimyan/iOS-source-note/blob/master/网络/Socket.md)
+6. [TCP&UDP协议](https://github.com/chilimyan/iOS-source-note/blob/master/网络/TCP%26UDP协议.md)
+7. [大文件下载功能需要注意的地方](https://github.com/chilimyan/iOS-source-note/blob/master/网络/大文件下载功能需要注意的地方.md)
+8. [大文件的分片上传](https://github.com/chilimyan/iOS-source-note/blob/master/网络/大文件的分片上传.md)
+9. [如何做到后台下载和上传](https://github.com/chilimyan/iOS-source-note/blob/master/网络/如何做到后台下载和上传.md)
+10. [断点续传功能该怎么实现？](https://github.com/chilimyan/iOS-source-note/blob/master/网络/断点续传功能该怎么实现？.md)
+11. [网络中的session和cookie](https://github.com/chilimyan/iOS-source-note/blob/master/网络/网络中的session和cookie.md)
+12. [网络请求的状态码都大致代表什么意思](https://github.com/chilimyan/iOS-source-note/blob/master/网络/网络请求的状态码都大致代表什么意思.md)
 
 ### 7、音视频处理
 
@@ -70,6 +79,9 @@
 3. [iOS的反射机制](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/iOS的反射机制.md)
 4. [id和instanceType的区别](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/id和instanceType的区别.md)
 5. [苹果源代码及文档网站](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/苹果源代码及文档网站.md)
+6. [通知的实现机制，通知是同步操作还是异步操作的？](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/通知的实现机制，通知是同步操作还是异步操作的？.md)
+7. [通知和代理的区别](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/通知和代理的区别.md)
+8. [load 和 Initialize 的区别?](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/%60load%60%20和%20%60Initialize%60%20的区别%3F.md)
 
 ### 13、WebView
 1. [JS 和 OC 互相调用的几种方式？](https://github.com/chilimyan/iOS-source-note/blob/master/跨平台/JS%20和%20OC%20互相调用的几种方式？.md)
@@ -77,6 +89,9 @@
 ### 14、Block
 
 [Block精解](https://github.com/chilimyan/iOS-source-note/blob/master/Block/Objective-C中Block精解.md)
+
+1. [Block 处理循环引用](https://github.com/chilimyan/iOS-source-note/blob/master/Block/Block%20处理循环引用.md)
+2. [Block的内存管理](https://github.com/chilimyan/iOS-source-note/blob/master/Block/Block的内存管理.md)
 
 ### 15、Runtime
 [Runtime-运行时的概念](https://github.com/chilimyan/iOS-source-note/blob/master/Runtime/Runtime-运行时的概念.md)
