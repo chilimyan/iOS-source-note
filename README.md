@@ -82,6 +82,10 @@
 6. [通知的实现机制，通知是同步操作还是异步操作的？](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/通知的实现机制，通知是同步操作还是异步操作的？.md)
 7. [通知和代理的区别](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/通知和代理的区别.md)
 8. [load 和 Initialize 的区别?](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/%60load%60%20和%20%60Initialize%60%20的区别%3F.md)
+9. [在main函数之前做了哪些工作](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/在main函数之前做了哪些工作.md)
+10. [在什么情况下会触发 KVO?](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/在什么情况下会触发%20KVO%3F.md)
+11. [如何做到 KVO 手动通知？](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/如何做到%20KVO%20手动通知？.md)
+12. [给实例变量赋值时，是否会触发 KVO?](https://github.com/chilimyan/iOS-source-note/blob/master/Foundation/给实例变量赋值时，是否会触发%20KVO%3F%20.md)
 
 ### 13、WebView
 1. [JS 和 OC 互相调用的几种方式？](https://github.com/chilimyan/iOS-source-note/blob/master/跨平台/JS%20和%20OC%20互相调用的几种方式？.md)
