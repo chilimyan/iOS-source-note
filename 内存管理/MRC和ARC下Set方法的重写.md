@@ -19,6 +19,8 @@
 在ARC下:
 - (void)setName:(NSString *)name{
     _name = name;
+    //如果是@property (nonatomic, copy) NSString *name;
+    //则应该要对name进行一次copy：如_name = [name copy];
 }
 在MRC下：每次赋值要把之前的值release掉然后在retain或者copy新值
 - (void)setName:(NSString *)name{
