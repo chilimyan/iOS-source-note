@@ -5,11 +5,15 @@
 相当于：
 在ARC下:
 - (void)setAge:(NSInteger)age{
-    _age = age;
+    if (_age != age){
+        _age = age;
+    }
 }
 在MRC下：
 - (void)setAge:(NSInteger)age{
-    _age = age;
+    if (_age != age){
+        _age = age;
+    }
 }
 ```
 基本数据类型和weak都不会使对象新增引用。所以都是一样的。
@@ -18,7 +22,9 @@
 @property (nonatomic, strong) NSString *name;
 在ARC下:
 - (void)setName:(NSString *)name{
-    _name = name;
+    if (_name != name){
+        _name = name;
+    }
     //如果是@property (nonatomic, copy) NSString *name;
     //则应该要对name进行一次copy：如_name = [name copy];
 }
@@ -26,6 +32,7 @@
 - (void)setName:(NSString *)name{
     if(_name != name){
        [_name release];
+       _name = nil;
        _name = [name retain/copy];
     }
 }
