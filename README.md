@@ -34,6 +34,7 @@
 7. [多线程的各种锁](https://github.com/chilimyan/iOS-source-note/blob/master/多线程/多线程的各种锁.md)
 8. [如何确保线程安全](https://github.com/chilimyan/iOS-source-note/blob/master/多线程/如何确保线程安全.md)
 9. [解释一下多线程中的死锁？](https://github.com/chilimyan/iOS-source-note/blob/master/多线程/解释一下多线程中的死锁？.md)
+10. [iOS线程间通信的几种方式](https://github.com/chilimyan/iOS-source-note/blob/master/多线程/iOS线程间通信的几种方式.md)
 
 ### 3、数据存储
 [iOS数据持久化](https://github.com/chilimyan/iOS-source-note/blob/master/数据存储/iOS数据持久化.md)
