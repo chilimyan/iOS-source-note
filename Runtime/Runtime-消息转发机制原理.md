@@ -137,6 +137,11 @@ objc_msgSend(receiver, selector, arg1, arg2, ...)
 4. 依此，会一直沿着类的继承体系到达`NSObject`类。一旦定位到`selector`，函数会就获取到了实现的入口点，并传入相应的参数来执行方法的具体实现。
 5. 如果最后没有定位到selector，则会走消息转发流程
 
+实例方法的完整的处理流程如下：
+![](https://upload-images.jianshu.io/upload_images/1840444-e231ef6b726d4b2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+类方法的完整的处理流程如下：
+![](https://upload-images.jianshu.io/upload_images/1840444-2bc87de516382915.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 为了加速消息的处理，运行时系统缓存使用过的selector及对应的方法的地址
 
 `objc_msgSend` 有两个隐藏参数：
